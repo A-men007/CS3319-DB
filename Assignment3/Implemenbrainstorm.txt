@@ -1,0 +1,13 @@
+country bookings   index1 radiobutts  -> getCountrytoSelect.php ->  Countrytripspage.php
+NAME     updatenamepage.php -> updateName.php
+STARTD   (yyy-mm-dd) updatestartpage.php ->updateDate.php
+ENDD		updateendpage.php ->updateDate.php
+IMG   updtimgpage.php ->updateimg.php
+DELtrip   deltrippage.php -> deltrip.php
+ADDtrip		addtrippage.php  -> addtrip.php  getaBustoSelect.php
+
+SELECT tripid, tripname, startdate, enddate, assignedbus, urlImage FROM bustrip WHERE country = 'Italy';
+
+passengerinfo.php
+SELECT passenger.passengerid, firstname, lastname, passportnum, citizenshipcountry, expireydate FROM passenger, passport ORDER BY lastname;
+
